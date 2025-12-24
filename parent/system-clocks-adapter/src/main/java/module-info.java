@@ -4,4 +4,6 @@ module kz.shaykemelov.clocks.system
     requires org.jspecify;
 
     provides kz.shaykemelov.clocks.api.Clocks with kz.shaykemelov.clocks.system.SystemClock;
+
+    exports kz.shaykemelov.clocks.system;
 }
