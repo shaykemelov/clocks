@@ -4,12 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>kz.shaykemelov.clocks</groupId>
-    <artifactId>parent</artifactId>
+    <groupId>kz.shaykemelov.projects</groupId>
+    <artifactId>clocks</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>A library for your Java projects that allows you to set up determinant behavior in your tests.</description>
     <url>https://www.shaykemelov.kz/projects/clocks</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Teymur Shaykemelov</name>
+            <email>shaykemelov@gmail.com</email>
+            <organizationUrl>https://www.shaykemelov.kz</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:shaykemelov/clocks.git</connection>
+        <developerConnection>scm:git:ssh://github.com:shaykemelov/clocks.git</developerConnection>
+        <url>https://github.com/shaykemelov/clocks/tree/main</url>
+    </scm>
 
     <distributionManagement>
         <site>
